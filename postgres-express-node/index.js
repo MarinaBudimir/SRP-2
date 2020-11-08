@@ -115,7 +115,7 @@ async function init() {
     // * Example: Authenticating a file
     // *--------------------------------
     const CREATE_TAG = false;
-
+/*
     if (CREATE_TAG) {
       // * Authenticate the file
 
@@ -144,7 +144,7 @@ async function init() {
           } authentic.`
         );
       });
-    }
+    }*/
   } catch (err) {
     console.log(err.message);
   }
